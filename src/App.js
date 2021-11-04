@@ -11,8 +11,9 @@ function App() {
         <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={Sales} />
-        <Route exact path="/chart" component={Question} />
+      <Route exact path="/" component={Question} />
+        <Route exact path="/table" component={Sales} />
+       
            </Switch>
       <Footer />
     </Router>
